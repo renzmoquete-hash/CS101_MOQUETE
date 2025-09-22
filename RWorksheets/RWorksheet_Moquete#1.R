@@ -247,8 +247,6 @@ class(x)
 
 # Additional Example
 # R Code:
-# Note: Using a new variable name 'my_age' to avoid conflict with the 'age' vector
-#       created in question #1. The following lines are run one by one in the console.
 
 name <- readline(prompt="Input your name: ")
 my_age <- readline(prompt="Input your age: ") # Using 'my_age'
@@ -256,7 +254,6 @@ print(paste("My name is", name, "and I am", my_age, "years old."))
 print(R.version.string)
 
 # Output:
-# When the code is run, the console first prompts for a name. I entered "Alex".
 # > Input your name: Renz
 # Then, the console prompts for an age. I entered "18".
 # > Input your age: 18
