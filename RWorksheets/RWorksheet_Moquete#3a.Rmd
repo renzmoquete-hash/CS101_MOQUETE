@@ -130,9 +130,8 @@ frame = data.frame(cities, temp)
 names(frame) <- c("City", "Temperature")
 frame
 
-str(frame)
+str(frame) 
 
-x = 10
 ```
 
 ### f. From the answer in d, what is the content of row 3 and row 4 What is its R code and
